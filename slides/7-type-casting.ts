@@ -1,5 +1,4 @@
 let id: number | string
-
 function setId(newId: number | string) {
   id = newId
 }
