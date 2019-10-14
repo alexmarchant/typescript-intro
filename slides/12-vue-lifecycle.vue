@@ -60,7 +60,7 @@ export class Thing extends Vue {
     console.log('mounted')
   }
 
-  filterDraftDrops() {
+  filterDraftDrops(): any[] {
     return this.tap.drops.filter(drop => drop.payload.status === 'Draft')
   }
 }
