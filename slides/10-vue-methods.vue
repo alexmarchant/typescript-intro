@@ -44,7 +44,7 @@ export class Thing extends Vue {
   @Prop({ type: Object, required: true }) readonly tap: Tap
   @Prop({ type: Boolean, default: false }) readonly renderSomething: boolean
 
-  filterDraftDrops() {
+  filterDraftDrops(): any[] {
     return this.tap.drops.filter(drop => drop.payload.status === 'Draft')
   }
 }
