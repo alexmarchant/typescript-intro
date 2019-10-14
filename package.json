@@ -1,0 +1,10 @@
+{
+  "name": "typescript-intro",
+  "private": true,
+  "devDependencies": {
+    "vue-property-decorator": "^8.2.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
