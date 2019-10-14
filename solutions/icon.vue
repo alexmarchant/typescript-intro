@@ -15,6 +15,7 @@
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
 
+@Component({})
 export default class Icon extends Vue {
   @Prop({ type: String, required: true }) readonly name: string
   @Prop({ type: [String, Object], default: '' }) readonly classes: string | object
