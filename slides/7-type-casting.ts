@@ -2,11 +2,12 @@ let id: number | string
 function setId(newId: number | string) {
   id = newId
 }
+
+
+
+
+
 setId(1.23456)
-
-
-
-
 
 // Error doesn't know if number or string
 console.log(id.toFixed(2))
@@ -28,6 +29,7 @@ console.log((id as string).replace('.', ','))
 
 // Other notation
 console.log((<string>id).replace('.', ','))
+
 
 
 
