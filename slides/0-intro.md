@@ -1,12 +1,12 @@
 # Typescript Intro
 
-### Why
+## Why
 
-#### Stability
+### Stability
 
 https://twitter.com/swyx/status/1093670844495089664
 
-#### Readability
+### Readability
 
 ```js
 this.fetchData(tap, drop, card, options) {
@@ -23,15 +23,16 @@ this.fetchData(tap: string, drop: string, card: string, options: any) {
 }
 ```
 
-### People using in Typescript
+## People using in Typescript
 
 - Google
+  - Angular
+  - Others...
 - Airbnb
 - Microsoft
   - VSCode
   - Typescript compiler is written in itself
 - Vue 3
-- Angular
 - Storybook
 - Asana
 - Ember
