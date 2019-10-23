@@ -6,7 +6,7 @@
 ### Incremental
 
 - Typescript plays well with normal javascript
-- We ingest tons of typescript projects right now and benefit from their types
+- We ingest typescript projects right now and benefit from their types (60k lines of typescript in our `node_modules` folder)
 - We don't need spend extra resources converting over, just use the js we have, new stuff can be written in TS
 
 ### Stability
