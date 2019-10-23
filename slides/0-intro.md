@@ -1,41 +1,11 @@
 # Typescript Intro
 
+## Agenda
+
+- Lets go over and write some type script
+- My take on pros/cons
+- Round table reasons why it might or might not be a good fit for us
+
+## This repo
+
 https://github.com/alexmarchant/typescript-intro
-
-## Why
-
-### Stability
-
-https://twitter.com/swyx/status/1093670844495089664
-
-### Readability
-
-```js
-this.fetchData(tap, drop, card, options) {
-  // Oh cool i have access to the drop payload here...
-  // Spoiler, nope, its the drop ID
-  drop.payload.testType // error
-  ...
-}
-```
-
-```ts
-this.fetchData(tap: string, drop: string, card: string, options: any) {
-  ...
-}
-```
-
-## People using in Typescript
-
-- Google
-  - Angular
-  - Others...
-- Airbnb
-- Microsoft
-  - VSCode
-  - Typescript compiler is written in itself
-- Vue 3
-- Storybook
-- Asana
-- Ember
-- JetBrains
