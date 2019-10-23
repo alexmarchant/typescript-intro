@@ -6,10 +6,10 @@
 ### Incremental
 
 - Typescript plays well with normal javascript
+  - POC on github https://github.com/AlphaUX/mgt/pull/404
 - We ingest typescript projects right now and benefit from their types 
   - 60k lines of typescript in our `node_modules` folder
 - We don't need to spend extra resources converting existing code, just use the js we have, new stuff can be written in TS
-  - POC on github https://github.com/AlphaUX/mgt/pull/404
 
 ### Stability
 
