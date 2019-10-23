@@ -1,5 +1,7 @@
 # Typescript Intro
 
+https://github.com/alexmarchant/typescript-intro
+
 ## Why
 
 ### Stability
