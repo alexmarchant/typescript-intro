@@ -6,8 +6,10 @@
 ### Incremental
 
 - Typescript plays well with normal javascript
-- We ingest typescript projects right now and benefit from their types (60k lines of typescript in our `node_modules` folder)
-- We don't need spend extra resources converting over, just use the js we have, new stuff can be written in TS
+- We ingest typescript projects right now and benefit from their types 
+  - 60k lines of typescript in our `node_modules` folder
+- We don't need to spend extra resources converting existing code, just use the js we have, new stuff can be written in TS
+  - POC on github
 
 ### Stability
 
@@ -50,5 +52,5 @@ this.fetchData(tap: string, drop: string, card: string, options: any) {
 - Learning curve
 - Types can get in your way
 - Extra tooling, extra complexity
-- Sometimes when there are lots of errors the typescript language server fails
+- Sometimes when there are lots of errors the typescript language server fails, have to restart it
 - Vue components have to be structured differently
